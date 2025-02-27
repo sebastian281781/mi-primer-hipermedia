@@ -35,4 +35,6 @@ este es el primer código que voy a realizar con funcionamiento en github
       </section>
       <section>
         <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <form action="https://freecatphotoapp.com/submit-cat-photo"
+        <body style="background-color: Red;">
+        
