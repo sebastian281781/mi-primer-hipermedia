@@ -1,29 +1,34 @@
-# mi-primer-hipermedia
-este es el primer código que voy a realizar con funcionamiento en github
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Página Web de Deportes</title>
+    <title>Alemania Campeona del Mundial 1990</title>
     <style>
         body {
-            background-color: #00ccff;
+            background-color: #000000;
             font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
         }
         h1 {
-            color: #ff0000;
-            text-shadow: 2px 2px #00ff00;
+            color: #ffcc00;
+            text-shadow: 2px 2px #ff0000;
         }
         a {
-            color: #0000ff;
+            color: #00ccff;
             text-decoration: underline;
         }
         img {
             border: 5px solid #ffcc00;
+            margin: 10px;
         }
         table {
             width: 80%;
             margin: 20px auto;
             border-collapse: collapse;
+            background-color: #ffffff;
+            color: #000000;
         }
         th, td {
             border: 2px solid #000000;
@@ -33,48 +38,88 @@ este es el primer código que voy a realizar con funcionamiento en github
         th {
             background-color: #ffcc00;
         }
+        .navbar {
+            background-color: #ff0000;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #dddddd;
+            color: black;
+        }
+        .footer {
+            background-color: #ff0000;
+            color: #ffffff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
     </style>
 </head>
 <body>
-    <h1>¡Bienvenido a mi página de deportes!</h1>
-    <p>Esta es mi primera página web de deportes, hecha con el estilo de los años 90.</p>
-    <img src="https://www.example.com/imagen_de_deporte.gif" alt="Imagen de deportes">
-    <br>
-    <a href="https://www.example.com">Visita mi sitio deportivo favorito</a>
+    <div class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#players">Jugadores</a>
+        <a href="#news">Noticias</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+    </div>
+
+    <h1>Alemania Campeona del Mundial 1990</h1>
+    <p>Revive los momentos gloriosos de la selección alemana en el Mundial de Italia 1990.</p>
+    <img src="https://www.example.com/alemania1990.gif" alt="Alemania 1990">
+
     <hr>
-    <h2>Tabla de los Mejores Equipos</h2>
+    <h2 id="players">Jugadores Destacados</h2>
     <table>
         <tr>
             <th>Posición</th>
-            <th>Equipo</th>
-            <th>Puntos</th>
+            <th>Jugador</th>
+            <th>Goles</th>
         </tr>
         <tr>
-            <td>1</td>
-            <td>Equipo A</td>
-            <td>89</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Equipo B</td>
-            <td>75</td>
-        </tr>
-        <tr>
+            <td>Delantero</td>
+            <td>Jürgen Klinsmann</td>
             <td>3</td>
-            <td>Equipo C</td>
-            <td>68</td>
+        </tr>
+        <tr>
+            <td>Mediocampista</td>
+            <td>Lothar Matthäus</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Defensa</td>
+            <td>Guido Buchwald</td>
+            <td>0</td>
         </tr>
     </table>
+
     <hr>
-    <h2>Noticias Recientes</h2>
-    <p>¡El Equipo A ha ganado el campeonato!</p>
-    <p>El próximo partido será entre el Equipo B y el Equipo C.</p>
+    <h2 id="news">Noticias Recientes</h2>
+    <p>Alemania gana su tercer título mundial tras vencer a Argentina 1-0 en la final.</p>
+    <p>Lothar Matthäus es nombrado el mejor jugador del torneo.</p>
+
     <hr>
-    <h2>Galería de Imágenes</h2>
-    <img src="https://www.example.com/deporte1.gif" alt="Deporte 1">
-    <img src="https://www.example.com/deporte2.gif" alt="Deporte 2">
-    <img src="https://www.example.com/deporte3.gif" alt="Deporte 3">
+    <h2 id="gallery">Galería de Imágenes</h2>
+    <img src="https://www.example.com/futbol1.gif" alt="Fútbol 1">
+    <img src="https://www.example.com/futbol2.gif" alt="Fútbol 2">
+    <img src="https://www.example.com/futbol3.gif" alt="Fútbol 3">
+
     <hr>
-    <p><small>&copy; 2025 Mi Nombre</small></p>
+    <h2 id="contact">Contacto</h2>
+    <p>Si tienes alguna pregunta, no dudes en <a href="mailto:futbol@example.com">enviarnos un correo</a>.</p>
+
+    <div class="footer">
+        <p><small>&copy; 2025 Mi Nombre</small></p>
+    </div>
 </body>
 </html>
