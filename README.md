@@ -1,40 +1,80 @@
 # mi-primer-hipermedia
 este es el primer código que voy a realizar con funcionamiento en github
 <html>
-  <body>
-    <main>
-      <h1>CatPhotoApp</h1>
-      <section>
-        <h2>Cat Photos</h2>
-        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo"
-        <body style="background-color: Red;">
-        
+<head>
+    <title>Mi Página Web de Deportes</title>
+    <style>
+        body {
+            background-color: #00ccff;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #ff0000;
+            text-shadow: 2px 2px #00ff00;
+        }
+        a {
+            color: #0000ff;
+            text-decoration: underline;
+        }
+        img {
+            border: 5px solid #ffcc00;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a mi página de deportes!</h1>
+    <p>Esta es mi primera página web de deportes, hecha con el estilo de los años 90.</p>
+    <img src="https://www.example.com/imagen_de_deporte.gif" alt="Imagen de deportes">
+    <br>
+    <a href="https://www.example.com">Visita mi sitio deportivo favorito</a>
+    <hr>
+    <h2>Tabla de los Mejores Equipos</h2>
+    <table>
+        <tr>
+            <th>Posición</th>
+            <th>Equipo</th>
+            <th>Puntos</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Equipo A</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Equipo B</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Equipo C</td>
+            <td>68</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Noticias Recientes</h2>
+    <p>¡El Equipo A ha ganado el campeonato!</p>
+    <p>El próximo partido será entre el Equipo B y el Equipo C.</p>
+    <hr>
+    <h2>Galería de Imágenes</h2>
+    <img src="https://www.example.com/deporte1.gif" alt="Deporte 1">
+    <img src="https://www.example.com/deporte2.gif" alt="Deporte 2">
+    <img src="https://www.example.com/deporte3.gif" alt="Deporte 3">
+    <hr>
+    <p><small>&copy; 2025 Mi Nombre</small></p>
+</body>
+</html>
