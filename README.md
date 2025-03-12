@@ -5,43 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortal Kombat: The Ultimate Battle</title>
     <style>
-        body {
+        <body>
             background-color: black;
             color: white;
             font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
             margin: 0;
             padding: 20px;
-        }
-        h1 {
+        <h1> 
             color: red;
             font-size: 3em;
             text-shadow: 2px 2px 5px yellow;
-        }
-        h2 {
+        <h2> 
             color: yellow;
             font-size: 2em;
-        }
-        a {
+        <a>
             color: lime;
             text-decoration: none;
             font-weight: bold;
-        }
-        a:hover {
+        </a>:hover 
             color: red;
-        }
-        .container {
+        
+        <container>
             border: 5px solid red;
             padding: 20px;
             margin: 20px auto;
             width: 80%;
             background-color: rgba(0, 0, 0, 0.7);
-        }
-        .footer {
+        
+        <footer>
             margin-top: 20px;
             font-size: 0.8em;
             color: gray;
-        }
+        
     </style>
 </head>
 <body>
